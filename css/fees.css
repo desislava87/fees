@@ -38,9 +38,10 @@
 }
 
 .fee-card-body {
-    padding: 2em 2em 5em 2em;
+    padding: 2em 2em 3em 2em;
     height: 200px;
     text-align: center;
+    margin-bottom: 2em;
 }
 .fee-card-body > h2 {
     opacity: 0.6;
