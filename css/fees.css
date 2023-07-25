@@ -12,7 +12,7 @@
 
 .fee > img {
     background-repeat: no-repeat;
-    transform: translate(-50em, 0);
+    transform: translate(-143em, 0);
     padding: 5em 0;
 }
 
@@ -48,7 +48,7 @@
 
 .fee-card-body > p {
     opacity: 0.6;
-    font-size: 1.6em;
+    font-size: 1em;
     font-weight: 500;
 }
 
