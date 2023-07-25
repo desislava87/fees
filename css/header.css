@@ -1,0 +1,26 @@
+header {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header > a,
+header > nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header > img{
+    width: 15em;
+    margin-left: 7em;
+}
+
+header > nav > ul > li{
+    list-style-type: none;
+    padding: 1.0em 1em;
+    margin-right: 1em;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgba(84, 84, 109, 1);
+}

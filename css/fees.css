@@ -1,0 +1,111 @@
+.fee {
+    width: 100%;
+    background-color: rgba(84, 84, 109, 1);
+    display: flex;
+}
+
+.fee > h2 {
+    margin: 2em auto;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+}
+
+.fee > img {
+    background-repeat: no-repeat;
+    transform: translate(-143em, 0);
+    padding: 5em 0;
+}
+
+.fee-card-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10em;
+    border-radius: 1em;
+    margin: 3em auto;
+    gap: 2em;
+    transform: translate(0, -50%);
+    height: 100%;
+}
+
+.fee-card {
+    width: 25%;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 1em;
+}
+
+.fee-card-body {
+    padding: 2em 2em 5em 2em;
+    height: 200px;
+    text-align: center;
+}
+.fee-card-body > h2 {
+    opacity: 0.6;
+}
+
+.fee-card-body > p {
+    opacity: 0.6;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.fee-card-body > button {
+    background-color: rgba(154, 93, 198, 1);
+    border: 1px solid rgba(154, 93, 198, 1);
+    padding: 1em 3em;
+    margin-top: 3em;
+    border-radius: 2em;
+    color: white;
+}
+
+.card-fee-footer {
+    border-radius: 0 0 1em 1em;
+    height: 150px;
+    text-align: center;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.card-fee-footer.blue,
+.card-fee-footer.purple {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.card-fee-footer.green {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card-fee-footer > p {
+    font-size: 18px;
+    font-weight: 600;
+}
+.price {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card-fee-footer-left {
+    padding-right: 3em;
+    border-right: 1px solid white;
+}
+
+.card-fee-footer.green {
+    background: linear-gradient(rgba(74, 213, 127, 1), rgba(50, 194, 105, 1), rgba(4, 155, 62, 1) );
+}
+.card-fee-footer.blue {
+    background: linear-gradient(rgba(95, 149, 199, 1),rgba(87, 130, 170, 1), rgba(77, 111, 141, 1) );
+}
+
+.card-fee-footer.purple {
+    background: linear-gradient(rgba(139, 124, 224, 1),rgba(110, 93, 198, 1), rgba(75, 56, 166, 1) );
+}
